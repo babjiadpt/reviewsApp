@@ -1,0 +1,114 @@
+/* Write your code here */
+.reviews-carousel-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+.reviews-container {
+  width: 90%;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .reviews-container {
+    width: 50%;
+  }
+}
+
+.left-arrow {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .left-arrow {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.reviewer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviewer-image {
+  width: 80px;
+}
+@media screen and (min-width: 768px) {
+  .reviewer-image {
+    width: 130px;
+  }
+}
+
+.reviewer-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .reviewer-name {
+    font-size: 20px;
+  }
+}
+
+.company-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .company-name {
+    font-size: 18px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #171f46;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+}
+
+.right-arrow {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .right-arrow {
+    width: 30px;
+    height: 30px;
+  }
+}
